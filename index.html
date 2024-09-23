@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark Mode YouTube Music Player</title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+</head>
+<body>
+
+  <h1>Dark Mode YouTube Music Player</h1>
+
+  <!-- Input field for playlist URL -->
+  <input type="text" id="playlistInput" placeholder="Enter YouTube playlist link here" />
+  <br />
+  <button id="loadPlaylist" class="button-3d">Load Playlist</button>
+
+  <!-- YouTube Player Container -->
+  <div id="player-container">
+    <div id="player"></div>
+  </div>
+
+  <!-- Controls (Play, Skip, Stop) -->
+  <div id="controls">
+    <button id="playButton" class="button-3d">Play</button>
+    <button id="skipButton" class="button-3d">Skip</button>
+    <button id="stopButton" class="button-3d">Stop</button>
+  </div>
+
+  <!-- Scrollable playlist container with 3D pop-up cards -->
+  <div id="playlistContainer">
+    <ul id="playlist"></ul>
+  </div>
+  
+  <script src="script.js"></script>
+
+</body>
+</html>
